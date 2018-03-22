@@ -9,13 +9,13 @@
     <p>Menu item({{ itemCount }}) </p>
   </div>
 </div>
-<div class="container color-light" [@goals]="goals.length">
+<div class="container color-light" [@goals]="menu.length">
     
   <div class="col">
-    <p class="sm"> What is on the menu?</p>
+    <p class="sm"> This is the menu </p>
 <form> 
-  <input type="text" class="txt"  name="item" placeholder="Menu item" [(ngModel)]="goalText">
-  <br><span> {{ goalText }}</span>
+  <input type="text" class="txt"  name="item" placeholder="Menu item" [(ngModel)]="menuText">
+  <br><span> {{ menuText }}</span>
 
   <input type="submit" class="btn" [value] = "btnText" (click)="addItem( )"> 
   
@@ -24,7 +24,7 @@
   </div>
   <div class="col">
     <p class="life-container" *ngFor="Menu item; let i = index"(click)="removeItem(i)" >
-      {{ goal }}
+      {{ menu }}
         
     </p>
     
