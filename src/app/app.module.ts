@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+// import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { LocationsComponent } from './locations/locations.component';
-import { PlaceComponent } from './place/place.component';
 import { EmploymentComponent } from './employment/employment.component';
 import { OrderComponent } from './order/order.component';
 
@@ -15,13 +15,13 @@ import { OrderComponent } from './order/order.component';
     AppComponent,
     MenuComponent,
     LocationsComponent,
-    PlaceComponent,
     EmploymentComponent,
     OrderComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    // AppRoutingModule,
     HttpModule
   ],
   providers: [],
