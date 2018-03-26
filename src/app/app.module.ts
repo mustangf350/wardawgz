@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { LocationsComponent } from './locations/locations.component';
 import { PlaceComponent } from './place/place.component';
 import { EmploymentComponent } from './employment/employment.component';
+import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EmploymentComponent } from './employment/employment.component';
     MenuComponent,
     LocationsComponent,
     PlaceComponent,
-    EmploymentComponent
+    EmploymentComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
