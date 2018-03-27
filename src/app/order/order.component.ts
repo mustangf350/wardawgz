@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrderComponent implements OnInit {
 
+  itemCount: number =  2;
+  btnText: string = ' Order';
+  goalText: string = 'Place Order';
   constructor() { }
 
   ngOnInit() {
