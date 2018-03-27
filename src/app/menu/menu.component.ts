@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+
+  itemCount: number =  3;
+ btnText: string = ' Menu';
+ goalText: string = 'Dogs and Sliders';
+
   constructor() { }
 
   ngOnInit() {

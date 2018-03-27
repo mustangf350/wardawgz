@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LocationsComponent implements OnInit {
 
+
+  itemCount: number =  2;
+ btnText: string = 'Locations';
+ goalText: string = 'Locations';
   constructor() { }
 
   ngOnInit() {
