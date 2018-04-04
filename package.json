@@ -14,14 +14,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^2.3.1",
-    "@angular/compiler": "^2.3.1",
-    "@angular/core": "^2.3.1",
-    "@angular/forms": "^2.3.1",
-    "@angular/http": "^2.3.1",
-    "@angular/platform-browser": "^2.3.1",
-    "@angular/platform-browser-dynamic": "^2.3.1",
-    "@angular/router": "^3.3.1",
+    "@angular/common": "5.2.9",
+    "@angular/compiler": "5.2.9",
+    "@angular/core": "5.2.9",
+    "@angular/forms": "5.2.9",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.2.9",
+    "@angular/platform-browser-dynamic": "5.2.9",
+    "@angular/router": "5.2.9",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "core-js": "^2.4.1",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.7.3",
-    "@angular/compiler-cli": "^2.3.1",
+    "@angular/compiler-cli": "5.2.9",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "codelyzer": "~2.0.0-beta.1",
@@ -46,9 +46,21 @@
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.2.1",
+    "nodemon": "^1.17.3",
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
     "typescript": "~2.0.3"
-  }
+  },
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustangf350/wardawgz.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mustangf350/wardawgz/issues"
+  },
+  "homepage": "https://github.com/mustangf350/wardawgz#readme"
 }
