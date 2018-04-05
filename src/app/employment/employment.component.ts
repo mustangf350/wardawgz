@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmploymentComponent implements OnInit {
 
- itemCount: number =  3;
+ itemCount: number =  15;
  btnText: string = 'Employment';
  goalText: string = 'Apply for Job';
 
